@@ -1,11 +1,12 @@
 import { Seo } from '@/ui/components/seo/seo';
+import { Typography } from '@/ui/design-system/typography/typography';
 
 
 export default function Home() {
   return (
     <>
       <Seo title="Share your talent" description="Description coming"/>
-      <h1>Hello world</h1>
-    </>
+      <Typography variant="h1">Talent World</Typography>
+    </> 
   );
 }
