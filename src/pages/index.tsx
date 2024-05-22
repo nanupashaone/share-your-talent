@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Seo title="Share your talent" description="Description coming"/>
-      <Typography variant="h1">Talent World</Typography>
+      <Typography component='p'>Talent World</Typography>
     </> 
   );
 }
