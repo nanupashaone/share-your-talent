@@ -14,7 +14,7 @@ interface Props {
     | "caption2"
     | "caption3"
     | "caption4";
-    component?: "h1" | "h2" | "h3" | "h4" | "h5" | "div" | "p" | "span";
+    component?: "h1" | "h2" | "h3" | "h4" | "h5" | "div" | "p" | "span" | "article";
     children: React.ReactNode;
 }
 
