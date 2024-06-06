@@ -6,7 +6,15 @@ export default function Home() {
   return (
     <>
       <Seo title="Share your talent" description="Description coming"/>
-      <Typography component='p'>Talent World</Typography>
+
+      <Button />
+
+      {/*
+      <div className='space-y-5'>
+        <Typography theme='primary' variant='body-lg' component='h1' >
+          Talent World
+          </Typography>
+  </div>   */}
     </> 
   );
 }
